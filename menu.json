@@ -1,16 +1,26 @@
 {
-  "📂 Develop": {
-    "📁 DevOps": {
-      "👉 Docker": "https://t.me/channel_A",
-      "👉 Kubernetes": "https://t.me/channel_B"
+  "Develop": {
+    "DevOps": {
+      "Docker": "https://t.me/channel_A",
+      "Kubernetes": "https://t.me/channel_B",
+      "Git": "https://t.me/channel_B",
+      "Jenkins": "https://t.me/channel_B",
+      "Github": "https://t.me/channel_B",
+      "Gitlab": "https://t.me/channel_B",
+      "Ansible": "https://t.me/channel_B",
+      "Terraform": "https://t.me/channel_B",
+      "ELK Stack": "https://t.me/channel_B",
+      "Splunk": "https://t.me/channel_B"
     },
-    "📁 Database": {
-      "👉 MySQL": "https://t.me/channel_A",
-      "👉 PostgreSQL": "https://t.me/channel_B"
+    "Database": {
+      "MySQL": "https://t.me/channel_A",
+      "PostgreSQL": "https://t.me/channel_B"
     }
   },
-  "📂 مجموعه ۲": {
-    "📁 زیرمجموعه ۲-۱": "https://t.me/channel_C"
+  "هوش مصنوعی": {
+    "AI Agent": "https://t.me/channel_C"
   },
-  "📂 مجموعه ۳": "https://t.me/channel_D"
+  "زبان های خارجی": {
+    "انگلیسی": "https://t.me/channel_C"
+  },
 }
