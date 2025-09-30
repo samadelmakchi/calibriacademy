@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>منوی چندسطحی</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#6a1b9a">
+
+  <style>
+    body { 
+      background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+      font-family: "Tahoma", sans-serif;
+      padding: 20px;
+    }
+    .menu-container {
+      max-width: 480px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    .menu-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #6a1b9a;
+    }
+    .btn-menu {
+      width: 100%;
+      margin: 6px 0;
+      font-size: 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+      white-space: normal;
+    }
+    .btn-menu:hover {
+      transform: scale(1.02);
+    }
+    .btn-back {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h4 class="menu-title">📂 منوی چندسطحی</h4>
+    <div id="menu"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // ثبت Service Worker برای PWA
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js")
+        .then(() => console.log("✅ Service Worker Registered"))
+        .catch(err => console.log("❌ SW Error", err));
+    }
+  </script>
+</body>
+</html>
