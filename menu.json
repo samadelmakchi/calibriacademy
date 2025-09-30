@@ -1,12 +1,12 @@
 {
-  "📂 مجموعه ۱": {
-    "📁 زیرمجموعه ۱-۱": {
-      "📁 بخش ۱-۱-۱": {
-        "📁 موضوع ۱-۱-۱-۱": {
-          "👉 کانال A": "https://t.me/channel_A",
-          "👉 کانال B": "https://t.me/channel_B"
-        }
-      }
+  "📂 Develop": {
+    "📁 DevOps": {
+      "👉 Docker": "https://t.me/channel_A",
+      "👉 Kubernetes": "https://t.me/channel_B"
+    },
+    "📁 Database": {
+      "👉 MySQL": "https://t.me/channel_A",
+      "👉 PostgreSQL": "https://t.me/channel_B"
     }
   },
   "📂 مجموعه ۲": {
